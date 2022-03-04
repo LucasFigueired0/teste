@@ -21,9 +21,11 @@ int main()
         n = (int*)realloc(n,(t+1)*sizeof(int));
     }
     printf("\n---------------\n");
-    for(i=0;i<t;i++)
+    i=0;
+    while(i<t)
     {
         printf("%d\n",n[i]);
+        i++;
     }
 
     return 0;
