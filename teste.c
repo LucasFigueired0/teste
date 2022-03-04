@@ -3,7 +3,7 @@
 
 int main()
 {
-    int *n
+    int *n;
     int i, t=0, r=0;
 
     n = (int*) malloc(2*sizeof(int));
