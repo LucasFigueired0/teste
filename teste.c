@@ -4,9 +4,9 @@
 int main()
 {
     int *n;
-    int i=0, t=0, r=0;
+    int i, t=0, r=0;
 
-    n = (int*) malloc(i*sizeof(int));
+    n = (int*) malloc(2*sizeof(int));
     printf("Digite -1 para sair: \n");
 
     while(r>=0)
@@ -16,17 +16,14 @@ int main()
         {
             break;
         }
-        n[i] = r;
-        i++;
-        n = (int*)realloc(n,(i+1)*sizeof(int));
+        n[t] = r;
+        t++;
+        n = (int*)realloc(n,(t+1)*sizeof(int));
     }
     printf("\n---------------\n");
-    t = i;
-    i=0;
-    while(i<t)
+    for(i=0;i<t;i++)
     {
-        printf("%d\n",n[i])
-        i++;
+        printf("%d\n",n[i]);
     }
 
     return 0;
