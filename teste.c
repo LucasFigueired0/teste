@@ -23,7 +23,7 @@ int main()
     printf("\n---------------\n");
     for(i=0;i<t;i++)
     {
-        printf("%d\n",n[i]+3);
+        printf("%d\n",n[i]);
     }
 
     return 0;
