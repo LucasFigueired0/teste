@@ -1,6 +1,9 @@
-# Teste utilizando alocação dinâmica de memória
+# Teste utilizando alocação dinâmica de memória com a linguagem C
 
-Exemplo utilizado: -> Ler números inteiros indefinidadamente até que seja digitado um valor negativo
-                   -> Imprimir os valores lidos multiplicando-os por três
+
+<h2>Funcionalidades</h2>
+<p>-> Ler números inteiros indefinidadamente até que seja digitado um valor negativo </p>
+<p>-> Imprimir os valores lidos multiplicando-os por três</p>
+
                    
                    
