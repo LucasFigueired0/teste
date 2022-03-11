@@ -30,5 +30,7 @@ int main()
         printf("%d\n",n1[i]);
     }
 
+    printf("---------------\n");
+
     return 0;
 }
